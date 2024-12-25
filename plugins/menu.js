@@ -145,6 +145,9 @@ cmd({
     category: "menu",
     react: "⤵️",
     filename: __filename
+<<<<<<< HEAD
+},
+=======
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try
@@ -205,6 +208,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             },
             { quoted: mek }
         );
+>>>>>>> b58f23dc52c21f406b81a861675ed94781f65036
 
     } catch (e) {
         console.log(e);
